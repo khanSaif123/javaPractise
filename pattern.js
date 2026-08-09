@@ -1,0 +1,46 @@
+// const readline = require("readline")
+
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// })
+
+// rl.question("Enter your age: ", (input) => {
+//   let age = Number(input);
+
+// })
+
+let month = [
+  "January",
+  "Feb",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+
+const readline = require("readline");
+
+let rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question("Enter Month Number: ", (monthNumber) => {
+  console.log("Month number: ", monthNumber);
+
+  if(monthNumber >= 1 && monthNumber <= 12){
+    let monthIs = month[monthNumber - 1];
+    console.log(monthIs);
+  }else {
+    console.log('Invalid month number');
+  }
+});
+
+
