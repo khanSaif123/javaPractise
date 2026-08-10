@@ -1,3 +1,4 @@
+package patternProblem;
 
 // public class square {
 

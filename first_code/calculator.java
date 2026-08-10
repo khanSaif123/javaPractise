@@ -5,6 +5,8 @@
 // 4 : / (Division) a / b
 // 5 : % (Modulo or remainder) a % b
 
+package first_code;
+
 import java.util.Scanner;
 
 public class calculator {

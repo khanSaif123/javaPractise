@@ -1,0 +1,10 @@
+{
+  // The workspace root is the source root, so every folder here is a package:
+  //   loop/            -> package loop;
+  //   first_code/      -> package first_code;
+  //   patternProblem/  -> package patternProblem;
+  // A new folder just needs a matching `package <folder>;` line at the top of its files.
+  "java.project.sourcePaths": ["."],
+  "java.project.outputPath": "bin",
+  "java.debug.settings.onBuildFailureProceed": true
+}

@@ -1,3 +1,5 @@
+package first_code;
+
 import java.util.*;
 
 class First {
