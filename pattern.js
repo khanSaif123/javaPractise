@@ -43,21 +43,37 @@
 //   }
 // });
 
+// let printStar = 5;
+// let lines = 4;
+// let lineCount = 0;
+// let star = "";
 
-let printStar = 5;
-let lines = 4;
-let lineCount = 0;
-let star = "";
+// while(lineCount < lines){
+//     for(let i = 1; i<=printStar; i++){
 
-while(lineCount < lines){
-    for(let i = 1; i<=printStar; i++){
-       
-      if(star.length < printStar){
-         star = star + "*";
-      }
-        
-    }
-    console.log(star)
-    lineCount++;
-    
-}
+//       if(star.length < printStar){
+//          star = star + "*";
+//       }
+
+//     }
+//     console.log(star)
+//     lineCount++;
+
+// }
+
+const { stdout, stdin } = require("process");
+const readline = require("readline");
+
+let rl = readline.createInterface({
+  input: stdin,
+  output: stdout,
+});
+
+rl.question("Enter your input: ", (input1) => {
+  console.log(typeof input1);
+  const numbers = input1.split(" ").map((n) => Number(n));
+  // numbers.map((n1, n2, n3) => {
+  //   return n1;
+  // })
+  console.log(numbers);
+});

@@ -9,7 +9,8 @@ public class hollowPattern {
         for(int col=1; col<= 4; col++){
             if(col == 1 || col == 4 || row == 1 || row == 5){
                 System.out.print("*");
-            }else{
+            }
+            else{
                 System.out.print(" ");
             }
         }
