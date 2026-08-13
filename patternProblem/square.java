@@ -21,21 +21,13 @@ package patternProblem;
 
 public class square {
   public static void main(String args[]) {
-    int starPrint = 5;
-    int lines = 4;
-    String star = "";
-    int lineCount = 1;
-
-    while (lineCount <= lines) {
-
-      for (int i = 0; i < starPrint; i++) {
-        if (star.length() < starPrint) {
-          star = star + "*";
-        }
+    int rows = 4;
+    int cols = 5;
+    for(int i=1; i<=rows; i++){
+      for(int j=1; j<=cols; j++){
+        System.out.print("*");
       }
-      lineCount++;
-      System.out.println(star);
-
+      System.out.println();
     }
   }
 }
