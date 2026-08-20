@@ -8,10 +8,11 @@ import java.util.Arrays;
  */
 public class firstArray {
 
-    public static void main(String args[]){
+    public static void main(){
         // how to declare array.
         // type[] arrayName = new type[size].
         int [] masks = new int[3];
+        int num [] = {};
         masks[0] = 20;
         masks[1] = 50;
         masks[2] = 45;
