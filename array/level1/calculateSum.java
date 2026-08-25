@@ -1,4 +1,4 @@
-package array;
+package array.level1;
 
 public class calculateSum {
     public static void main(){
