@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class lenearSearch {
     public static void main() {
+        // lenear search.
         Scanner sc = new Scanner(System.in);
         boolean found = false;
 
